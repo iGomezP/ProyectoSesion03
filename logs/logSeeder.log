@@ -1,0 +1,1347 @@
+[27/01/2023 - 02:57:05] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Starting ProyectoFinalModulo3ApplicationTests using Java 17 with PID 30187 (started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 02:57:05] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 02:57:05] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 02:57:05] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 02:57:05] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 02:57:05] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 02:57:06] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 02:57:06] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 02:57:06] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@505d2bac
+[27/01/2023 - 02:57:06] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 02:57:06] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 02:57:06] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 02:57:06] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 02:57:07] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 02:57:07] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Started ProyectoFinalModulo3ApplicationTests in 2.405 seconds (process running for 2.918)
+[27/01/2023 - 02:57:07] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 02:57:07] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 02:57:07] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 02:57:07] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 02:57:07] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 02:57:07] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 04:43:38] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Starting ProyectoFinalModulo3ApplicationTests using Java 17 with PID 47254 (started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 04:43:38] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 04:43:39] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 04:43:39] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 04:43:39] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 04:43:39] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 04:43:39] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 04:43:39] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 04:43:39] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72eed547
+[27/01/2023 - 04:43:39] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 04:43:39] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 04:43:40] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 04:43:40] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 04:43:40] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 04:43:40] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Started ProyectoFinalModulo3ApplicationTests in 2.267 seconds (process running for 2.747)
+[27/01/2023 - 04:43:40] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 04:43:40] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 04:43:41] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 04:43:41] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 04:43:41] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 04:43:41] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 04:46:27] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Starting ProyectoFinalModulo3Application using Java 17 with PID 47900 (/home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3/target/classes started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 04:46:27] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 04:46:27] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[27/01/2023 - 04:46:27] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[27/01/2023 - 04:46:27] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 04:46:27] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 04:46:28] [initialize] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+[27/01/2023 - 04:46:28] [log] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[27/01/2023 - 04:46:28] [log] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+[27/01/2023 - 04:46:28] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[27/01/2023 - 04:46:28] [prepareWebApplicationContext] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 695 ms
+[27/01/2023 - 04:46:28] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 04:46:28] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 04:46:28] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 04:46:28] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 04:46:28] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c23361f
+[27/01/2023 - 04:46:28] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 04:46:28] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 04:46:29] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 04:46:29] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 04:46:29] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 04:46:29] [startServer] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
+[27/01/2023 - 04:46:29] [start] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+[27/01/2023 - 04:46:29] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Started ProyectoFinalModulo3Application in 2.29 seconds (process running for 2.698)
+[27/01/2023 - 04:46:29] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 04:46:29] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 04:46:38] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[27/01/2023 - 04:46:38] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
+[27/01/2023 - 04:46:38] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 1 ms
+[27/01/2023 - 04:46:38] [getById] [org.bedu.proyectofinalmodulo3.Service.impl.ProductoFunkoServiceImpl] [INFO ] - Producto encontrado - Anbu Itachi
+[27/01/2023 - 04:49:34] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 04:49:34] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 04:49:34] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 04:49:34] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 04:50:29] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Starting ProyectoFinalModulo3ApplicationTests using Java 17 with PID 48578 (started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 04:50:29] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 04:50:30] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 04:50:30] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 04:50:30] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 04:50:30] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 04:50:30] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 04:50:30] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 04:50:31] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@356b6b5d
+[27/01/2023 - 04:50:31] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 04:50:31] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 04:50:31] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 04:50:31] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 04:50:31] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 04:50:32] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Started ProyectoFinalModulo3ApplicationTests in 2.369 seconds (process running for 2.865)
+[27/01/2023 - 04:50:32] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 04:50:32] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 04:50:32] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 04:50:32] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 04:50:32] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 04:50:32] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 05:23:01] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Starting ProyectoFinalModulo3ApplicationTests using Java 17 with PID 57517 (started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 05:23:01] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 05:23:01] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 05:23:01] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 05:23:02] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 05:23:02] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 05:23:02] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 05:23:02] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 05:23:02] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11e834ad
+[27/01/2023 - 05:23:02] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 05:23:02] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 05:23:03] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 05:23:03] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:23:03] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 05:23:03] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Started ProyectoFinalModulo3ApplicationTests in 2.35 seconds (process running for 2.837)
+[27/01/2023 - 05:23:03] [logMessage] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [INFO ] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[27/01/2023 - 05:23:03] [reportFailure] [org.springframework.boot.SpringApplication] [ERROR] - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:59)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:47)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1386)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:543)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.io.FileNotFoundException: ~/apps/csv/Anime.csv (No existe el fichero o el directorio)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at org.bedu.proyectofinalmodulo3.Config.FunkosSeeder.run(FunkosSeeder.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
+	... 78 common frames omitted
+[27/01/2023 - 05:23:03] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:23:03] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 05:23:03] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 05:23:03] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 05:23:03] [prepareTestInstance] [org.springframework.test.context.TestContextManager] [ERROR] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests@20ddc780]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@3b39bee2 testClass = org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests, locations = [], classes = [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5403f35f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1b1426f4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4d0f2471, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@9da1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5ba3f27a, org.springframework.boot.test.context.SpringBootTestAnnotation@95222fa8], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:142)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:59)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:47)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1386)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:543)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	... 67 common frames omitted
+Caused by: java.io.FileNotFoundException: ~/apps/csv/Anime.csv (No existe el fichero o el directorio)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at org.bedu.proyectofinalmodulo3.Config.FunkosSeeder.run(FunkosSeeder.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
+	... 78 common frames omitted
+[27/01/2023 - 05:24:50] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Starting ProyectoFinalModulo3ApplicationTests using Java 17 with PID 57915 (started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 05:24:50] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 05:24:50] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 05:24:50] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 05:24:50] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 05:24:50] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 05:24:50] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 05:24:51] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 05:24:51] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1187dc82
+[27/01/2023 - 05:24:51] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 05:24:51] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 05:24:51] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 05:24:51] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:24:51] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 05:24:52] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Started ProyectoFinalModulo3ApplicationTests in 2.335 seconds (process running for 2.828)
+[27/01/2023 - 05:24:52] [logMessage] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [INFO ] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[27/01/2023 - 05:24:52] [reportFailure] [org.springframework.boot.SpringApplication] [ERROR] - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:59)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:47)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1386)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:543)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.io.FileNotFoundException: apps/csv/Anime.csv (No existe el fichero o el directorio)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at org.bedu.proyectofinalmodulo3.Config.FunkosSeeder.run(FunkosSeeder.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
+	... 78 common frames omitted
+[27/01/2023 - 05:24:52] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:24:52] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 05:24:52] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 05:24:52] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 05:24:52] [prepareTestInstance] [org.springframework.test.context.TestContextManager] [ERROR] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests@26f7b114]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@7e1ce99c testClass = org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests, locations = [], classes = [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e84448c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7e5afaa6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@53fdffa1, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@9da1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2c35e847, org.springframework.boot.test.context.SpringBootTestAnnotation@4fe8cbe5], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:142)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:59)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:47)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1386)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:543)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	... 67 common frames omitted
+Caused by: java.io.FileNotFoundException: apps/csv/Anime.csv (No existe el fichero o el directorio)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at org.bedu.proyectofinalmodulo3.Config.FunkosSeeder.run(FunkosSeeder.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
+	... 78 common frames omitted
+[27/01/2023 - 05:25:51] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Starting ProyectoFinalModulo3ApplicationTests using Java 17 with PID 58173 (started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 05:25:51] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 05:25:51] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 05:25:51] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 05:25:51] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 05:25:51] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 05:25:51] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 05:25:51] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 05:25:52] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14ed7ddf
+[27/01/2023 - 05:25:52] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 05:25:52] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 05:25:52] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 05:25:52] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:25:52] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 05:25:53] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Started ProyectoFinalModulo3ApplicationTests in 2.347 seconds (process running for 2.833)
+[27/01/2023 - 05:25:53] [logMessage] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [INFO ] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[27/01/2023 - 05:25:53] [reportFailure] [org.springframework.boot.SpringApplication] [ERROR] - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:59)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:47)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1386)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:543)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.io.FileNotFoundException: home/vakzor/apps/csv/Anime.csv (No existe el fichero o el directorio)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at org.bedu.proyectofinalmodulo3.Config.FunkosSeeder.run(FunkosSeeder.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
+	... 78 common frames omitted
+[27/01/2023 - 05:25:53] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:25:53] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 05:25:53] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 05:25:53] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 05:25:53] [prepareTestInstance] [org.springframework.test.context.TestContextManager] [ERROR] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests@2c750b69]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@4411a0fe testClass = org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests, locations = [], classes = [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e84448c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7e5afaa6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@53fdffa1, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@9da1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2c35e847, org.springframework.boot.test.context.SpringBootTestAnnotation@4fe8cbe5], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:142)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:59)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:47)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1386)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:543)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	... 67 common frames omitted
+Caused by: java.io.FileNotFoundException: home/vakzor/apps/csv/Anime.csv (No existe el fichero o el directorio)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at org.bedu.proyectofinalmodulo3.Config.FunkosSeeder.run(FunkosSeeder.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
+	... 78 common frames omitted
+[27/01/2023 - 05:26:11] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Starting ProyectoFinalModulo3ApplicationTests using Java 17 with PID 58314 (started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 05:26:11] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 05:26:11] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 05:26:12] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 05:26:12] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 05:26:12] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 05:26:12] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 05:26:12] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 05:26:12] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14ed7ddf
+[27/01/2023 - 05:26:12] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 05:26:12] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 05:26:13] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 05:26:13] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:26:13] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 05:26:13] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Started ProyectoFinalModulo3ApplicationTests in 2.3 seconds (process running for 2.791)
+[27/01/2023 - 05:26:13] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 05:26:13] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 05:26:14] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:26:14] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 05:26:14] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 05:26:14] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 05:32:59] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Starting ProyectoFinalModulo3ApplicationTests using Java 17 with PID 59647 (started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 05:32:59] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 05:33:00] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 05:33:00] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 05:33:00] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 05:33:00] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 05:33:00] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 05:33:00] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 05:33:00] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14ed7ddf
+[27/01/2023 - 05:33:00] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 05:33:00] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 05:33:01] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 05:33:01] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:33:01] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 05:33:01] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Started ProyectoFinalModulo3ApplicationTests in 2.338 seconds (process running for 2.837)
+[27/01/2023 - 05:33:01] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 05:33:02] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 05:33:02] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:33:02] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 05:33:02] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 05:33:02] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 05:45:34] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Starting ProyectoFinalModulo3ApplicationTests using Java 17 with PID 61701 (started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 05:45:34] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 05:45:34] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 05:45:34] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 05:45:35] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 05:45:35] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 05:45:35] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 05:45:35] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 05:45:35] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1187dc82
+[27/01/2023 - 05:45:35] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 05:45:35] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 05:45:36] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 05:45:36] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:45:36] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 05:45:36] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Started ProyectoFinalModulo3ApplicationTests in 2.54 seconds (process running for 3.031)
+[27/01/2023 - 05:45:36] [logMessage] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [INFO ] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[27/01/2023 - 05:45:36] [reportFailure] [org.springframework.boot.SpringApplication] [ERROR] - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:59)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:47)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1386)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:543)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.io.FileNotFoundException: /opt/tomcat/apache-tomcat/webapps/docs/Anime.csv (No existe el fichero o el directorio)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at org.bedu.proyectofinalmodulo3.Config.FunkosSeeder.run(FunkosSeeder.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
+	... 78 common frames omitted
+[27/01/2023 - 05:45:36] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:45:36] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 05:45:36] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 05:45:36] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 05:45:36] [prepareTestInstance] [org.springframework.test.context.TestContextManager] [ERROR] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests@26f7b114]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@7e1ce99c testClass = org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests, locations = [], classes = [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e84448c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7e5afaa6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@53fdffa1, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@9da1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2c35e847, org.springframework.boot.test.context.SpringBootTestAnnotation@4fe8cbe5], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:142)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:59)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:47)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1386)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:543)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	... 67 common frames omitted
+Caused by: java.io.FileNotFoundException: /opt/tomcat/apache-tomcat/webapps/docs/Anime.csv (No existe el fichero o el directorio)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at org.bedu.proyectofinalmodulo3.Config.FunkosSeeder.run(FunkosSeeder.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
+	... 78 common frames omitted
+[27/01/2023 - 05:48:34] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Starting ProyectoFinalModulo3ApplicationTests using Java 17 with PID 62444 (started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 05:48:34] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 05:48:35] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 05:48:35] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 05:48:35] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 05:48:35] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 05:48:35] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 05:48:35] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 05:48:35] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@356b6b5d
+[27/01/2023 - 05:48:35] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 05:48:35] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 05:48:36] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 05:48:36] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:48:36] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 05:48:36] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3ApplicationTests] [INFO ] - Started ProyectoFinalModulo3ApplicationTests in 2.312 seconds (process running for 2.8)
+[27/01/2023 - 05:48:36] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 05:48:37] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 05:48:37] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 05:48:37] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 05:48:37] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 05:48:37] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 12:23:34] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Starting ProyectoFinalModulo3Application using Java 17 with PID 106184 (/home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3/target/classes started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 12:23:34] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 12:23:34] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[27/01/2023 - 12:23:34] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[27/01/2023 - 12:23:34] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 12:23:34] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 12:23:35] [initialize] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+[27/01/2023 - 12:23:35] [log] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[27/01/2023 - 12:23:35] [log] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+[27/01/2023 - 12:23:35] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[27/01/2023 - 12:23:35] [prepareWebApplicationContext] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 722 ms
+[27/01/2023 - 12:23:35] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 12:23:35] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 12:23:35] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 12:23:35] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 12:23:35] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27a99eb
+[27/01/2023 - 12:23:35] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 12:23:35] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 12:23:36] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 12:23:36] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 12:23:36] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 12:23:36] [startServer] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
+[27/01/2023 - 12:23:36] [start] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+[27/01/2023 - 12:23:36] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Started ProyectoFinalModulo3Application in 2.374 seconds (process running for 2.714)
+[27/01/2023 - 12:23:36] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 12:23:36] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 12:24:03] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[27/01/2023 - 12:24:03] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
+[27/01/2023 - 12:24:03] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 1 ms
+[27/01/2023 - 12:24:03] [createFunko] [org.bedu.proyectofinalmodulo3.Service.impl.ProductoFunkoServiceImpl] [WARN ] - El producto ya existe.
+[27/01/2023 - 12:41:16] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 12:41:16] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 12:41:16] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 12:41:16] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 12:50:52] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Starting ProyectoFinalModulo3Application using Java 17 with PID 110760 (/home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3/target/classes started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 12:50:52] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 12:50:52] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[27/01/2023 - 12:50:52] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[27/01/2023 - 12:50:53] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 12:50:53] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 12:50:53] [initialize] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+[27/01/2023 - 12:50:53] [log] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[27/01/2023 - 12:50:53] [log] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+[27/01/2023 - 12:50:53] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[27/01/2023 - 12:50:53] [prepareWebApplicationContext] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 720 ms
+[27/01/2023 - 12:50:53] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 12:50:53] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 12:50:53] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 12:50:53] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 12:50:54] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@319dd280
+[27/01/2023 - 12:50:54] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 12:50:54] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 12:50:54] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 12:50:54] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 12:50:54] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 12:50:55] [startServer] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
+[27/01/2023 - 12:50:55] [start] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+[27/01/2023 - 12:50:55] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Started ProyectoFinalModulo3Application in 2.359 seconds (process running for 2.718)
+[27/01/2023 - 12:50:55] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 12:50:55] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 12:51:00] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[27/01/2023 - 12:51:00] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
+[27/01/2023 - 12:51:00] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 1 ms
+[27/01/2023 - 12:51:00] [createFunko] [org.bedu.proyectofinalmodulo3.Service.impl.ProductoFunkoServiceImpl] [WARN ] - El producto ya existe.
+[27/01/2023 - 12:51:00] [doResolveHandlerMethodException] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [WARN ] - Failure in @ExceptionHandler org.bedu.proyectofinalmodulo3.Controller.handlers.GlobalExceptionManager#handleFunkoAlreadyExists(FunkoAlreadyExistsException, WebRequest)
+org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "El producto ya existe."
+	at org.bedu.proyectofinalmodulo3.Controller.handlers.GlobalExceptionManager.handleFunkoAlreadyExists(GlobalExceptionManager.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1340)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1151)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[27/01/2023 - 12:51:00] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [ERROR] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.bedu.proyectofinalmodulo3.Exceptions.FunkoAlreadyExistsException: El producto ya existe.] with root cause
+org.bedu.proyectofinalmodulo3.Exceptions.FunkoAlreadyExistsException: El producto ya existe.
+	at org.bedu.proyectofinalmodulo3.Service.impl.ProductoFunkoServiceImpl.createFunko(ProductoFunkoServiceImpl.java:50)
+	at org.bedu.proyectofinalmodulo3.Controller.ProductoFunkoController.createFunko(ProductoFunkoController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[27/01/2023 - 01:32:29] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 01:32:29] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 01:32:29] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 01:32:29] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 01:32:31] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Starting ProyectoFinalModulo3Application using Java 17 with PID 118484 (/home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3/target/classes started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 01:32:31] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 01:32:31] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[27/01/2023 - 01:32:31] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[27/01/2023 - 01:32:32] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 01:32:32] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 01:32:32] [initialize] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+[27/01/2023 - 01:32:32] [log] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[27/01/2023 - 01:32:32] [log] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+[27/01/2023 - 01:32:32] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[27/01/2023 - 01:32:32] [prepareWebApplicationContext] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 742 ms
+[27/01/2023 - 01:32:32] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 01:32:32] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 01:32:32] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 01:32:32] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 01:32:33] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a0cd836
+[27/01/2023 - 01:32:33] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 01:32:33] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 01:32:33] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 01:32:33] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 01:32:33] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 01:32:34] [startServer] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
+[27/01/2023 - 01:32:34] [start] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+[27/01/2023 - 01:32:34] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Started ProyectoFinalModulo3Application in 2.38 seconds (process running for 2.723)
+[27/01/2023 - 01:32:34] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 01:32:34] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 01:32:37] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[27/01/2023 - 01:32:37] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
+[27/01/2023 - 01:32:37] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 1 ms
+[27/01/2023 - 01:32:37] [createFunko] [org.bedu.proyectofinalmodulo3.Service.impl.ProductoFunkoServiceImpl] [WARN ] - El producto ya existe.
+[27/01/2023 - 01:32:37] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [ERROR] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.bedu.proyectofinalmodulo3.Exceptions.FunkoAlreadyExistsException: El producto ya existe.] with root cause
+org.bedu.proyectofinalmodulo3.Exceptions.FunkoAlreadyExistsException: El producto ya existe.
+	at org.bedu.proyectofinalmodulo3.Service.impl.ProductoFunkoServiceImpl.createFunko(ProductoFunkoServiceImpl.java:50)
+	at org.bedu.proyectofinalmodulo3.Controller.ProductoFunkoController.createFunko(ProductoFunkoController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[27/01/2023 - 01:34:33] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 01:34:33] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 01:34:33] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 01:34:33] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 01:34:36] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Starting ProyectoFinalModulo3Application using Java 17 with PID 118942 (/home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3/target/classes started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 01:34:36] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 01:34:36] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[27/01/2023 - 01:34:36] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[27/01/2023 - 01:34:36] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 01:34:36] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 01:34:36] [initialize] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+[27/01/2023 - 01:34:36] [log] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[27/01/2023 - 01:34:36] [log] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+[27/01/2023 - 01:34:36] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[27/01/2023 - 01:34:36] [prepareWebApplicationContext] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 734 ms
+[27/01/2023 - 01:34:37] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 01:34:37] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 01:34:37] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 01:34:37] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 01:34:37] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@676ca667
+[27/01/2023 - 01:34:37] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 01:34:37] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 01:34:37] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 01:34:37] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 01:34:37] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 01:34:38] [startServer] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
+[27/01/2023 - 01:34:38] [start] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+[27/01/2023 - 01:34:38] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Started ProyectoFinalModulo3Application in 2.339 seconds (process running for 2.68)
+[27/01/2023 - 01:34:38] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 01:34:38] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 01:34:41] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[27/01/2023 - 01:34:41] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
+[27/01/2023 - 01:34:41] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 0 ms
+[27/01/2023 - 01:34:41] [createFunko] [org.bedu.proyectofinalmodulo3.Service.impl.ProductoFunkoServiceImpl] [WARN ] - El producto ya existe.
+[27/01/2023 - 01:34:41] [logException] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [WARN ] - Resolved [org.springframework.web.server.ResponseStatusException: 201 CREATED "El producto ya existe"]
+[27/01/2023 - 01:36:13] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 01:36:13] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 01:36:13] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 01:36:13] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 01:38:38] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Starting ProyectoFinalModulo3Application using Java 17 with PID 120004 (/home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3/target/classes started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 01:38:38] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 01:38:38] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[27/01/2023 - 01:38:38] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[27/01/2023 - 01:38:38] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 01:38:38] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 01:38:38] [initialize] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+[27/01/2023 - 01:38:38] [log] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[27/01/2023 - 01:38:38] [log] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+[27/01/2023 - 01:38:38] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[27/01/2023 - 01:38:38] [prepareWebApplicationContext] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 720 ms
+[27/01/2023 - 01:38:39] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 01:38:39] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 01:38:39] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 01:38:39] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 01:38:39] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b4c9149
+[27/01/2023 - 01:38:39] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 01:38:39] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 01:38:39] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 01:38:39] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 01:38:39] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 01:38:40] [startServer] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
+[27/01/2023 - 01:38:40] [start] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+[27/01/2023 - 01:38:40] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Started ProyectoFinalModulo3Application in 2.335 seconds (process running for 2.678)
+[27/01/2023 - 01:38:40] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 01:38:40] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 01:38:46] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[27/01/2023 - 01:38:46] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
+[27/01/2023 - 01:38:46] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 1 ms
+[27/01/2023 - 01:39:20] [createFunko] [org.bedu.proyectofinalmodulo3.Service.impl.ProductoFunkoServiceImpl] [INFO ] - Creando nuevo producto...Pop Anbu Itachi
+[27/01/2023 - 01:40:44] [destroy] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 01:40:44] [perform] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [INFO ] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[27/01/2023 - 01:40:44] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[27/01/2023 - 01:40:44] [close] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[27/01/2023 - 01:40:47] [logStarting] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Starting ProyectoFinalModulo3Application using Java 17 with PID 120640 (/home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3/target/classes started by vakzor in /home/vakzor/Documentos/Bedu-HSBC/3. Java SE Intermedio/10. Proyecto Final/V2/ProyectoFinalModulo3)
+[27/01/2023 - 01:40:47] [logStartupProfileInfo] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[27/01/2023 - 01:40:47] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[27/01/2023 - 01:40:47] [logTo] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[27/01/2023 - 01:40:47] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[27/01/2023 - 01:40:47] [registerRepositoriesIn] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+[27/01/2023 - 01:40:48] [initialize] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+[27/01/2023 - 01:40:48] [log] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[27/01/2023 - 01:40:48] [log] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+[27/01/2023 - 01:40:48] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[27/01/2023 - 01:40:48] [prepareWebApplicationContext] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 716 ms
+[27/01/2023 - 01:40:48] [logPersistenceUnitInformation] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[27/01/2023 - 01:40:48] [logVersion] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.6.Final
+[27/01/2023 - 01:40:48] [lambda$new$1] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[27/01/2023 - 01:40:48] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[27/01/2023 - 01:40:48] [checkFailFast] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@676ca667
+[27/01/2023 - 01:40:48] [getConnection] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[27/01/2023 - 01:40:48] [logSelectedDialect] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[27/01/2023 - 01:40:49] [initiateService] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[27/01/2023 - 01:40:49] [buildNativeEntityManagerFactory] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[27/01/2023 - 01:40:49] [openEntityManagerInViewInterceptor] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[27/01/2023 - 01:40:49] [startServer] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
+[27/01/2023 - 01:40:49] [start] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+[27/01/2023 - 01:40:49] [logStarted] [org.bedu.proyectofinalmodulo3.ProyectoFinalModulo3Application] [INFO ] - Started ProyectoFinalModulo3Application in 2.333 seconds (process running for 2.659)
+[27/01/2023 - 01:40:49] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Insertando valores iniciales...
+[27/01/2023 - 01:40:49] [run] [org.bedu.proyectofinalmodulo3.Config.FunkosSeeder] [INFO ] - Productos agregados exitosamente.
+[27/01/2023 - 01:40:58] [log] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[27/01/2023 - 01:40:58] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
+[27/01/2023 - 01:40:58] [initServletBean] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 1 ms
+[27/01/2023 - 01:40:58] [createFunko] [org.bedu.proyectofinalmodulo3.Service.impl.ProductoFunkoServiceImpl] [WARN ] - El producto ya existe.
+[27/01/2023 - 01:40:58] [logException] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [WARN ] - Resolved [org.springframework.web.server.ResponseStatusException: 409 CONFLICT "El producto ya existe"]
+[27/01/2023 - 01:41:12] [logException] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [WARN ] - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.bedu.proyectofinalmodulo3.Entity.ProductoFunkoEntity> org.bedu.proyectofinalmodulo3.Controller.ProductoFunkoController.createFunko(org.bedu.proyectofinalmodulo3.Entity.ProductoFunkoEntity) with 2 errors: [Field error in object 'productoFunkoEntity' on field 'price': rejected value [0]; codes [Positive.productoFunkoEntity.price,Positive.price,Positive.int,Positive]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [productoFunkoEntity.price,price]; arguments []; default message [price]]; default message [El predio debe ser mayor que 0.]] [Field error in object 'productoFunkoEntity' on field 'name': rejected value [null]; codes [NotEmpty.productoFunkoEntity.name,NotEmpty.name,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [productoFunkoEntity.name,name]; arguments []; default message [name]]; default message [El nombre del producto no puede estar vacío.]] ]
