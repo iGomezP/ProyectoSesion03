@@ -26,8 +26,8 @@ public class FunkosSeeder  implements CommandLineRunner {
     public void run(String... args) throws Exception {
         // Generar lista a partir del CSV
         // Ruta para servidor remoto: /opt/tomcat/apache-tomcat/webapps/docs/Anime.csv
-        // Ruta para servidor local: src/csv/Anime.csv
-        List<ProductoFunkoEntity> nuevosFunkos = new CsvToBeanBuilder(new FileReader("src/csv/Anime.csv"))
+        // Ruta para servidor local y jar: ./csv/Anime.csv
+        List<ProductoFunkoEntity> nuevosFunkos = new CsvToBeanBuilder(new FileReader("./csv/Anime.csv"))
                 .withType(ProductoFunkoEntity.class)
                 .build()
                 .parse();
