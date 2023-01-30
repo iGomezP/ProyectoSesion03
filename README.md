@@ -8,7 +8,7 @@
 
 ![DatosBD](./imgs/DatosBD.png)
 
-> Importante: En el video olvidé mencionar que de hicieron distintas pruebas unitarias (como se puede ver en el paquete de Test)
+> Importante: En el video olvidé mencionar que se hicieron distintas pruebas unitarias (como se puede ver en el paquete de Test)
 
 ![Tests](./imgs/Tests.png)
 
