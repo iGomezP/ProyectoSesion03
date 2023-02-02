@@ -46,7 +46,7 @@
     "password": "Usuario@123"
 }`
 
-* `189.234.178.15/APIGeros/clientes` <- Endpoint de consulta de todos los usuarios registrados **Sólo el usuario con rol de "ADMIN" puede ver este endpoint**
+* `189.234.178.15/APIGeros/usuarios` <- Endpoint de consulta de todos los usuarios registrados **Sólo el usuario con rol de "ADMIN" puede ver este endpoint**
 
 ### Endpoint de producto:
 
